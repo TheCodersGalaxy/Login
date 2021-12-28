@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-analytics.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-auth.js"></script>
+
+        <script>
+            //FB Initialization
+            const firebaseConfig = {
+            apiKey: "AIzaSyC9QRd3nieB5nY_feLIbRd2gbSowfVG3z4",
+            authDomain: "search-engine-1634620444383.firebaseapp.com",
+            projectId: "search-engine-1634620444383",
+            storageBucket: "search-engine-1634620444383.appspot.com",
+            messagingSenderId: "116134095393",
+            appId: "1:116134095393:web:a6bbc482ea15cc7c07d160",
+            measurementId: "G-DWDMTCRB7X"
+            };
+            firebase.initializeApp(firebaseConfig);
+            var db=firebase.firestore();
+
+            function login()
+            {
+                
+            }
+        </script>
+    </head>
+    <body>
+        <button value="Login" onclick="login()"></button>
+    </body>
+</html>
